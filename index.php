@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Welcome | Ibn al haytham </title>
     <link href="index.css" rel="stylesheet">
     <link href="index.js" rel="script">
 </head>
@@ -12,20 +12,19 @@
     <div class="container">
         <div  style="margin-top:150px;margin-bottom:30px;text-align:center;">
             <img src="logo.png" style="width: 100px;margin-bottom:15px">
-            <h1>Medico Home Page </h1>
+            <h1>Ibn al haytham Medical supplements</h1>
         </div>
         <nav>
             <div class="nav-fostrap">
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="javascript:void(0)">Branches<span class="arrow-down"></span></a>
+                    <li><a href="javascript:void(0)">Branches Log in<span class="arrow-down"></span></a>
                         <ul class="dropdown">
                             <li><a href="">Cairo</a></li>
                             <li><a href="">Mansoura</a></li>
                         </ul>
                     </li>
                     <li><a href="">Services</a></li>
-                    <li><a href="login.html">Log in </a></li>
                     <li><a href="">About Us</a></li>
                 </ul>
             </div>
