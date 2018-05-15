@@ -9,7 +9,9 @@ if (isset($_GET['golog']))
         if ($row['email'] ==  $_GET['email']  && $row['password'] == $_GET['password'])
         {
             $city =  $row['city'] ;
-            echo $city;
+            setcookie('city'   , $city, time() + 3000 , '/')  ;
+            header('Location: http://localhost/ei_medical/');
+
         }
         else
         {

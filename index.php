@@ -26,6 +26,14 @@
                     </li>
                     <li><a href="">Services</a></li>
                     <li><a href="">About Us</a></li>
+
+                    <?php
+                        if (isset($_COOKIE['city']))
+                            {
+                                echo "Hello !";
+                                echo "<li><a href=\"form.php\">Search For Supplements !</a></li>" ;
+                            }
+                    ?>
                 </ul>
             </div>
             <div class="nav-bg-fostrap">
