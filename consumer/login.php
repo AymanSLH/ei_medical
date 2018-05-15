@@ -1,13 +1,15 @@
 <?php
 if (isset($_GET['golog']))
 {
+    $city  = "" ;
     $data_base = new SQLite3('docts') ;
-    $raw_result = $data_base->query("Select id , email , password  from doctors") ;
+    $raw_result = $data_base->query("Select id , email , password , city from doctors") ;
     while ($row = $raw_result->fetchArray())
     {
         if ($row['email'] ==  $_GET['email']  && $row['password'] == $_GET['password'])
         {
-            echo "Helllo !!!" ;
+            $city =  $row['city'] ;
+            echo $city;
         }
         else
         {
